@@ -1,0 +1,26 @@
+<!-- Here we have a wrapper which includes an h1, an id for the date and a box with some text. Some JS is used to display the current date -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Hello Lion</h1>
+        <div id="current_date"></div>
+        <p class="box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    
+</body>
+    <script>
+
+    const d = new Date();
+    document.getElementById("current_date").innerHTML ="["+d.toDateString()+"]";
+
+    </script>
+</html>

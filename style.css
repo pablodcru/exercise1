@@ -1,0 +1,36 @@
+/* Styling of the elements. Just trying to replicate as much as I could the given example */
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
+
+
+body{
+    background-repeat: no-repeat;
+    background-image: url("./background.jpg");  
+    background-size: cover;
+    color: white;
+    margin: 10rem 4rem 2rem 4rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+}
+
+h1{
+    font-size: 7rem;
+    letter-spacing: -7px;
+    font-weight: 700;
+}
+
+#current_date {
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.box {
+    font-size: 1.2rem;
+    background-color: white;
+    opacity: 0.6;
+    color: black;
+    margin-top: 1rem;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
